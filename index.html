@@ -1,13 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <li>1</li>
-    <li>1</li>
-    <li>1</li>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a class="nav-list__link" href="#about">About me</a></li>
+                    <li class="nav-list__item"><a class="nav-list__link" href="#skills">Skills</a></li>
+                    <li class="nav-list__item"><a class="nav-list__link" href="#projects">Projects</a></li>
+                    <li class="nav-list__item"><a class="nav-list__link" href="#code-example">Code example</a></li>
+                    <li class="nav-list__item"><a class="nav-list__link" href="#education">Education</a></li>
+                    <li class="nav-list__item"><a class="nav-list__link" href="#languages">Languages</a></li>
+                </ul>
+            </nav>
+            <div class="contacts">
+                <div class="contacts-left">
+                    <h1 class="name">Ilya Roslanov</h1>
+                    <div class="spec">
+                        &lt;Frontend <span class="black-mark">developer&gt;</span>
+                    </div>
+                    <ul class="contacts-list">
+                        <li class="contacts-list__item"><a href="https://discordapp.com/users/290527071095226368/" class="contacts-list__item-link"><img
+                                    src="assets/discord.svg" alt="discord"></a></li>
+                        <li class="contacts-list__item"><a href="https://github.com/kaddlz" class="contacts-list__item-link"><img
+                                    src="assets/github.svg" alt="github"></a></li>
+                        <li class="contacts-list__item"><a href="https://t.me/kaddlz" class="contacts-list__item-link"><img
+                                    src="assets/telegram.svg" alt="telegram"></a></li>
+                        <li class="contacts-list__item"><a href="mailto:roslanov@icloud.com" class="contacts-list__item-link"><img
+                                    src="assets/mail.svg" alt="mail"></a></li>
+                    </ul>
+                </div>
+                <div class="photo">
+                    <img src="assets/photo.jpg" alt="photo">
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="about" id="about">
+                <h2>About me</h2>
+                <p>I am a beginner frontend developer who is passionate about creating beautiful and functional web
+                    applications. My goal is to become a professional in this field and to work on challenging and
+                    rewarding projects. My priorities are to write clean, efficient and maintainable code, to follow the
+                    best practices and standards, and to keep up with the latest trends and technologies. I am eager to
+                    learn new things and to improve my skills every day. I am looking for an opportunity to join a team
+                    of talented and supportive developers who can help me grow and achieve my potential.</p>
+            </div>
+            <div class="skills" id="skills">
+                <h2>Skills</h2>
+                <ul class="skills-list">
+                    <li class="skills-list__item">HTML / CSS</li>
+                    <li class="skills-list__item">JS basics</li>
+                    <li class="skills-list__item">Git / GitHub</li>
+                    <li class="skills-list__item">Figma</li>
+                    <li class="skills-list__item">Adobe Photoshop</li>
+                </ul>
+            </div>
+            <div class="code-example" id="code-example">
+                <h2>Code example</h2>
+                <p>
+                <pre>
+function multiply(a, b){
+ return a * b
+}
+                </pre>
+                </p>
+            </div>
+            <div class="projects" id="projects">
+                <h2>Projects</h2>
+                <a class="center" href="https://github.com/kaddlz/rsschool-cv/tree/rsschool-cv-html">CV</a>
+                <div class="education" id="education">
+                    <h2>Education</h2>
+                    <p>HTML Academy - Introduction to Web Development</p>
+                    <p>Rolling Scopes School - JS/FE Pre-School </p>
+                </div>
+                <div class="languages" id="languages">
+                    <h2>Languages</h2>
+                    <p>English - A2</p>
+                    <p>Russian - Native</p>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="rss-logo">
+                <a href="https://rs.school/"><img src="assets/rs_school_js.svg" alt="rolling scopes school"></a>
+            </div>
+            <div class="copyright">
+                <p>© 2023 by Ilya Roslanov</p>
+            </div>
+            <div class="gh-logo">
+                <a href="https://github.com/kaddlz"><img src="assets/github.svg" alt="github"></a>
+            </div>
+
+
+        </footer>
+    </div>
+
 </body>
+
 </html>
